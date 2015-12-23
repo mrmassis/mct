@@ -1,2 +1,2 @@
-# tmn
+# mct
 Multi-Clouds Tournament
