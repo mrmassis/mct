@@ -1,0 +1,21 @@
+PARTICIPANTES:
+-------------------------------------------------------------------------------
+5 players, um por continente:
+america   1
+antartida 1
+asia      1
+europa    1
+oceania   1
+
+Players tipo G, só emitem e aceitam requisição de VMs tipo 'T','S','B'.
+
+EXECUCAO:
+-------------------------------------------------------------------------------
+- cada player emite uma requisição de VM do tipo 'T','S', 'B' a cada 4 segundos;
+- cada player pode executar simultaneamente 10 VMs do tipo 'T', 'S', 'B';
+- cada VM do tipo 'T','S','B' permanece 30 segundos em execução.
+
+RESULTADO ESPERADO:
+-------------------------------------------------------------------------------
+
+Os scores sao individuais tb.

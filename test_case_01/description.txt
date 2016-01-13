@@ -1,0 +1,28 @@
+PARTICIPANTES:
+-------------------------------------------------------------------------------
+5 players, um por continente:
+america   1
+antartida 1
+asia      1
+europa    1
+oceania   1
+
+Players tipo A, só emitem e aceitam requisição de VMs tipo 'T'.
+
+EXECUCAO:
+-------------------------------------------------------------------------------
+- cada player emite uma requisição de VM do tipo 'T' a cada 4 segundos;
+- cada player pode executar simultaneamente 10 VMs do tipo 'T';
+- cada VM do tipo 'T' permanece 30 segundos em execução.
+
+RESULTADO ESPERADO:
+-------------------------------------------------------------------------------
+Que cada player seja elevado a divisão 2, mas depois de 'n' rounds volte a di-
+visão 3. Esse comportamento se repetira indefinidamente pois os player defini-
+dos não emitem requisições do tipo 'S'.
+
+
+Esse protótipo se um player esta na divisao 3 ele só aceita requisição do tipo
+'T', se esta na 2 somente do tipo 'S' e se esta na 1 somente do tipo 'B'.
+
+Os scores sao individuais tb.
